@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+#start-page {
+    display: block;
+    text-align: center;
+    padding: 40px;
+    padding-top: 5px;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+#start-button {
+    display: block;
+    margin: auto;
+}
+
+canvas {
+    display: block;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#status-bar {
+    border-bottom: none;
+}
+
+#game {
+    display: none;
+    text-align: center;
+}
+

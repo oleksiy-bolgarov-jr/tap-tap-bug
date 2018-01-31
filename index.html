@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <script src="gameprogramming.js"></script>
+        <script src="index.js"></script>
+        <script src="redAnt.js"></script>
+        <script src="cockroach.js"></script>
+        <script src="blackSpider.js"></script>
+    </head>
+    <body>
+        <h2>Tap Tap Bug</h2>
+        <div id="start-page">
+            <h3>Select level: </h3>
+            <form>
+                <input 
+                    type="radio" name="level-select" id="level-1-select"
+                    checked="checked" value="1" /> 1
+                <input 
+					type="radio" name="level-select" id="level-2-select" 
+					value="2" /> 2
+            </form>
+            <h3>High score:</h3>
+            <p>Level 1: <span id="level-1-score">0</span></p>
+            <p>Level 2: <span id="level-2-score">0</span></p>
+            <button id="start-button" type="button">Start Game</button>
+        </div>
+        <div id="game">
+            <canvas id="status-bar" width="400" height="40"></canvas>
+            <canvas id="game-canvas" width="400" height="600"></canvas>
+        </div>
+    </body>
+</html>
